@@ -1,5 +1,7 @@
 import React from 'react'
+
 import './header.css'
+import whatsapp from '../assets/whatsapp.png'
 
 function Header() {
   return (
@@ -7,7 +9,7 @@ function Header() {
         <div className="logo">MKS <br />SOLUTIONS</div>
         <div className="left-top-section">
             <div>our services now available KERALA and BANGALORE</div>
-            <div>contact 9020302499 </div>
+            <div>contact 8129092016 <img src={whatsapp} alt="whatsapp" id='whatsapp' />  </div>
         </div>
       
     </div>
